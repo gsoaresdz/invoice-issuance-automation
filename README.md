@@ -8,7 +8,6 @@ Este repositório contém um script Python de automação que emite notas fiscai
 - Selenium WebDriver
 - ChromeDriver
 - Pandas
-- OpenPyXL
 
 ## **Instalação**
 
