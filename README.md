@@ -32,7 +32,6 @@ pip install selenium pandas openpyxl webdriver-manager
 3. Execute o script:
 
 ```
-cssCopy code
 python main.py
 
 ```
