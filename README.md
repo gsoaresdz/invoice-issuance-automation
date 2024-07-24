@@ -1,8 +1,8 @@
 <h1 align="center">Automação de Emissão de Notas Fiscais</h1>
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/usuario/automacao-emissao-nf?color=56BEB8">
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/usuario/automacao-emissao-nf?color=56BEB8">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/usuario/automacao-emissao-nf?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/automacao-emissao-nf?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/automacao-emissao-nf?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/automacao-emissao-nf?color=56BEB8">
 </p>
 <p align="center">
   <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
@@ -12,7 +12,7 @@
   <a href="#checkered_flag-execução">Execução</a> &#xa0; | &#xa0;
   <a href="#memo-estrutura-dos-arquivos">Estrutura dos Arquivos</a> &#xa0; | &#xa0;
   <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
-  <a href="https://github.com/usuario" target="_blank">Autor</a>
+  <a href="https://github.com/gsoaresdz" target="_blank">Autor</a>
 </p>
 <br>
 
