@@ -1,55 +1,106 @@
-# **Automação - Sistema de emissão de nota fiscal eletrônica NFe**
+<h1 align="center">Automação de Emissão de Notas Fiscais</h1>
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/usuario/automacao-emissao-nf?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/usuario/automacao-emissao-nf?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/usuario/automacao-emissao-nf?color=56BEB8">
+</p>
+<p align="center">
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
+  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-execução">Execução</a> &#xa0; | &#xa0;
+  <a href="#memo-estrutura-dos-arquivos">Estrutura dos Arquivos</a> &#xa0; | &#xa0;
+  <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
+  <a href="https://github.com/usuario" target="_blank">Autor</a>
+</p>
+<br>
 
-Este repositório contém um script Python de automação que emite notas fiscais eletrônicas (NFe) utilizando Selenium WebDriver e Pandas. Ele lê um arquivo Excel com informações dos clientes e preenche um formulário na página web para gerar as notas fiscais correspondentes.
+## **:dart: Sobre**
 
-## **Requisitos**
+Este repositório contém um script em Python para automatizar a emissão de notas fiscais, facilitando o processo e reduzindo a possibilidade de erros humanos.
 
-- Python 3.x
-- Selenium WebDriver
-- ChromeDriver
-- Pandas
+## **:sparkles: Funcionalidades**
 
-## **Instalação**
+:heavy_check_mark: **Funcionalidade 1**: Leitura de dados a partir de arquivos específicos
 
-1. Clone o repositório:
+:heavy_check_mark: **Funcionalidade 2**: Geração automática de notas fiscais em formato padrão
 
+:heavy_check_mark: **Funcionalidade 3**: Validação de dados conforme regras fiscais
+
+:heavy_check_mark: **Funcionalidade 4**: Emissão de relatórios de notas fiscais emitidas
+
+## **:rocket: Tecnologias**
+
+As seguintes ferramentas foram usadas neste projeto:
+
+- [Python](https://www.python.org/)
+- [Jupyter Notebook](https://jupyter.org/)
+- [Pandas](https://pandas.pydata.org/)
+- [ReportLab](https://www.reportlab.com/)
+
+## **:white_check_mark: Requerimentos**
+
+Antes de iniciar :checkered_flag:, você precisa ter [Python 3](https://www.python.org/downloads/) instalado.
+
+## **:checkered_flag: Execução**
+
+### Clonando o Repositório
+
+Primeiramente, clone o repositório do projeto para sua máquina local.
+
+```bash
+$ git clone https://github.com/gsoaresdz/automacao-emissao-nf.git
 ```
-git clone https://github.com/seu-usuario/seu-repositorio.git
 
+### Instalação das Dependências
+
+Para instalar as dependências do projeto, execute o seguinte comando no terminal:
+
+```bash
+$ pip install pandas reportlab
 ```
 
-1. Instale as dependências:
+### Usando Jupyter Notebook
 
-```
-pip install selenium pandas openpyxl webdriver-manager
+1. Certifique-se de ter o Python 3 instalado no seu sistema.
+2. Instale o Jupyter Notebook:
+    
+    ```bash
+    pip install jupyter
+    ```
+    
+3. Navegue até o diretório do projeto e inicie o Jupyter Notebook:
+    
+    ```bash
+    jupyter notebook
+    ```
+    
+4. Abra o arquivo **main.ipynb** e execute as células de código para realizar a automação da emissão de notas fiscais.
 
-```
+### Usando o Visual Studio Code (VSCode)
 
-## **Uso**
+1. Certifique-se de ter o Python 3 instalado no seu sistema.
+2. Instale o Visual Studio Code (VSCode) e a extensão "Python".
+3. Abra o diretório do projeto no VSCode.
+4. Abra o arquivo **main.ipynb** e execute as células de código para realizar a automação da emissão de notas fiscais.
 
-1. Atualize o arquivo **`NotasEmitir.xlsx`** com as informações dos clientes e produtos/serviços para os quais você deseja emitir notas fiscais.
-2. Atualize o script com suas credenciais de login e caminhos de diretório desejados.
-3. Execute o script:
+## **:memo: Estrutura dos Arquivos**
 
-```
-python main.py
+Os arquivos do projeto estão organizados da seguinte forma:
 
-```
+- **arquivos/**: Contém os arquivos de dados necessários para a emissão de notas fiscais.
+- **LICENSE**: Arquivo de licença do projeto.
+- **main.ipynb**: Notebook Jupyter com o script principal para automação.
+- **README.md**: Este arquivo README com informações sobre o projeto.
+- **templates/**: Modelos utilizados na geração das notas fiscais.
 
-Após a execução bem-sucedida, as notas fiscais serão emitidas e os arquivos baixados no diretório especificado.
+## **:memo: Licença**
 
-## **Funcionalidades**
+Este projeto está sob licença do MIT. Para obter mais detalhes, consulte o arquivo [LICENSE](LICENSE).
 
-O script realiza as seguintes ações:
+Feito com :heart: by <a href="https://github.com/gsoaresdz" target="_blank">gsoaresdz</a>
 
-1. Configura o navegador Chrome com opções de download automático.
-2. Acessa a página de login e realiza o login com as credenciais fornecidas.
-3. Importa a base de clientes a partir do arquivo Excel **`NotasEmitir.xlsx`**.
-4. Para cada cliente, preenche o formulário de emissão de nota fiscal com as informações correspondentes e emite a nota.
-5. Encerra o navegador após a conclusão do processo.
+&#xa0;
 
-## **Limitações**
-
-- Este script foi projetado para funcionar com o ChromeDriver e pode não ser compatível com outros navegadores.
-- Os dados de login e senha estão hardcoded no script. Recomenda-se armazená-los de forma segura em um arquivo de configuração ou variáveis de ambiente.
-- O script assume que o layout do formulário e os seletores do DOM não mudarão. Se a página for atualizada, os seletores podem precisar ser ajustados.
+<a href="#top">De volta ao topo</a>
