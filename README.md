@@ -1,106 +1,95 @@
-<h1 align="center">Automação de Emissão de Notas Fiscais</h1>
-<p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/automacao-emissao-nf?color=56BEB8">
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/automacao-emissao-nf?color=56BEB8">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/automacao-emissao-nf?color=56BEB8">
-</p>
-<p align="center">
-  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
-  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-execução">Execução</a> &#xa0; | &#xa0;
-  <a href="#memo-estrutura-dos-arquivos">Estrutura dos Arquivos</a> &#xa0; | &#xa0;
-  <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
-  <a href="https://github.com/gsoaresdz" target="_blank">Autor</a>
-</p>
-<br>
+<h1 align="center">Invoice Issuance Automation</h1><p align="center"><img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/automacao-emissao-nf?color=56BEB8"><img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/automacao-emissao-nf?color=56BEB8"><img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/automacao-emissao-nf?color=56BEB8"></p><p align="center"><a href="#dart-about">About</a> &#xa0; | &#xa0;
+  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-running">Running</a> &#xa0; | &#xa0;
+  <a href="#memo-file-structure">File Structure</a> &#xa0; | &#xa0;
+  <a href="#memo-license">License</a> &#xa0; | &#xa0;
+  <a href="https://github.com/gsoaresdz" target="_blank">Author</a></p><br>
+  
+## **:dart: About**
 
-## **:dart: Sobre**
+This repository contains a Python script to automate the issuance of invoices, making the process easier and reducing the possibility of human errors.
 
-Este repositório contém um script em Python para automatizar a emissão de notas fiscais, facilitando o processo e reduzindo a possibilidade de erros humanos.
+## **:sparkles: Features**
 
-## **:sparkles: Funcionalidades**
+:heavy_check_mark: **Feature 1**: Reads data from specific files
 
-:heavy_check_mark: **Funcionalidade 1**: Leitura de dados a partir de arquivos específicos
+:heavy_check_mark: **Feature 2**: Automatically generates invoices in a standard format
 
-:heavy_check_mark: **Funcionalidade 2**: Geração automática de notas fiscais em formato padrão
+:heavy_check_mark: **Feature 3**: Validates data according to fiscal rules
 
-:heavy_check_mark: **Funcionalidade 3**: Validação de dados conforme regras fiscais
+:heavy_check_mark: **Feature 4**: Issues reports of generated invoices
 
-:heavy_check_mark: **Funcionalidade 4**: Emissão de relatórios de notas fiscais emitidas
+## **:rocket: Technologies**
 
-## **:rocket: Tecnologias**
-
-As seguintes ferramentas foram usadas neste projeto:
+The following tools were used in this project:
 
 - [Python](https://www.python.org/)
 - [Jupyter Notebook](https://jupyter.org/)
 - [Pandas](https://pandas.pydata.org/)
 - [ReportLab](https://www.reportlab.com/)
 
-## **:white_check_mark: Requerimentos**
+## **:white_check_mark: Requirements**
 
-Antes de iniciar :checkered_flag:, você precisa ter [Python 3](https://www.python.org/downloads/) instalado.
+Before starting :checkered_flag:, you need to have [Python 3](https://www.python.org/downloads/) installed.
 
-## **:checkered_flag: Execução**
+## **:checkered_flag: Running**
 
-### Clonando o Repositório
+### Cloning the Repository
 
-Primeiramente, clone o repositório do projeto para sua máquina local.
+First, clone the project repository to your local machine.
 
 ```bash
 $ git clone https://github.com/gsoaresdz/automacao-emissao-nf.git
 ```
 
-### Instalação das Dependências
+### Installing Dependencies
 
-Para instalar as dependências do projeto, execute o seguinte comando no terminal:
+To install the project dependencies, run the following command in the terminal:
 
 ```bash
 $ pip install pandas reportlab
 ```
 
-### Usando Jupyter Notebook
+### Using Jupyter Notebook
 
-1. Certifique-se de ter o Python 3 instalado no seu sistema.
-2. Instale o Jupyter Notebook:
+1. Make sure you have Python 3 installed on your system.
+2. Install Jupyter Notebook:
     
     ```bash
     pip install jupyter
     ```
     
-3. Navegue até o diretório do projeto e inicie o Jupyter Notebook:
+3. Navigate to the project directory and start Jupyter Notebook:
     
     ```bash
     jupyter notebook
     ```
     
-4. Abra o arquivo **main.ipynb** e execute as células de código para realizar a automação da emissão de notas fiscais.
+4. Open the **main.ipynb** file and run the code cells to automate the invoice issuance process.
 
-### Usando o Visual Studio Code (VSCode)
+### Using Visual Studio Code (VSCode)
 
-1. Certifique-se de ter o Python 3 instalado no seu sistema.
-2. Instale o Visual Studio Code (VSCode) e a extensão "Python".
-3. Abra o diretório do projeto no VSCode.
-4. Abra o arquivo **main.ipynb** e execute as células de código para realizar a automação da emissão de notas fiscais.
+1. Make sure you have Python 3 installed on your system.
+2. Install Visual Studio Code (VSCode) and the "Python" extension.
+3. Open the project directory in VSCode.
+4. Open the **main.ipynb** file and run the code cells to automate the invoice issuance process.
 
-## **:memo: Estrutura dos Arquivos**
+## **:memo: File Structure**
 
-Os arquivos do projeto estão organizados da seguinte forma:
+The project files are organized as follows:
 
-- **arquivos/**: Contém os arquivos de dados necessários para a emissão de notas fiscais.
-- **LICENSE**: Arquivo de licença do projeto.
-- **main.ipynb**: Notebook Jupyter com o script principal para automação.
-- **README.md**: Este arquivo README com informações sobre o projeto.
-- **templates/**: Modelos utilizados na geração das notas fiscais.
+- **files/**: Contains the data files needed for issuing invoices.
+- **LICENSE**: Project license file.
+- **main.ipynb**: Jupyter Notebook with the main automation script.
+- **README.md**: This README file with project information.
+- **templates/**: Templates used for generating invoices.
 
-## **:memo: Licença**
+## **:memo: License**
 
-Este projeto está sob licença do MIT. Para obter mais detalhes, consulte o arquivo [LICENSE](LICENSE).
+This project is licensed under the MIT License. For more details, see the [LICENSE](LICENSE) file.
 
-Feito com :heart: by <a href="https://github.com/gsoaresdz" target="_blank">gsoaresdz</a>
+Made with :heart: by <a href="https://github.com/gsoaresdz" target="_blank">gsoaresdz</a>
 
-&#xa0;
-
-<a href="#top">De volta ao topo</a>
+<a href="#top">Back to top</a>
